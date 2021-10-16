@@ -1,0 +1,230 @@
+@font-face{
+    font-family:GE-SS-Text-Bold;
+    src: url('fonts/GE-SS-Text-Bold.otf');
+}
+@font-face{
+  font-family:GE-SS-Text-Medium;
+  src: url('fonts/GE-SS-Text-Medium.otf');
+}
+@font-face{
+font-family:GE_SS_Text_Light;
+src: url('fonts/GE_SS_Text_Light.otf');
+}
+body{
+   direction: rtl;
+}
+.main_Sections{
+    background-image: url('image/Contact Us-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+}
+.font_color{
+    color: #2678a5 !important;
+    font-family:'GE_SS_Text_Light';
+}
+.font_color_blue{
+    color: #d8b747 !important;
+    font-family:'GE_SS_Text_Light';
+}
+@media(min-width:1250px){
+    .font_color_blue{
+        margin-right: 392px;
+    }
+}
+.Contuct_with_us{
+    color: #2678a5;
+    text-align: center;
+    font-family: 'GE-SS-Text-Medium';
+}
+.Contuct_with_us2{
+    color: #1b365d;
+    text-align: center;
+    font-family:'GE_SS_Text_Light';    
+}
+@media (min-width:1200px){
+    .Contuct_with_us2{
+        width: 932px;
+    }
+    form{
+        width: 674px;
+    }
+}
+form{
+    background-color: white;
+    border: 2px solid rgb(184, 171, 171);
+    text-align: -moz-right !important;
+    margin-top: -205px;
+}
+.first_Name{
+    color: #2678a5;
+    font-family:'GE_SS_Text_Light';
+    /* margin-right: 56px; */
+}
+.input_First_Name,.family_Name,.phones,.textArea{
+    border-color: #b7b5b5;
+}
+.family_Name{
+    color: #2678a5;
+    font-family:'GE_SS_Text_Light';
+    width: 229px;
+}
+.input_First_Name,.family_Name{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+@media(max-width:600px){
+    .family_Name{
+        width: 100%;
+    }
+    .input_First_Name_width{
+        width: 100%;
+    }
+    .Select_Option{
+        width: 100% !important;       
+    }
+    .Select_Option_phone{
+        width: 100% !important;
+    }
+    .know,.dare,.lead{
+        font-size: 30px !important;
+    }
+    .FirstNameHeigh,.EnsureEmailHeigh,.TownHeight,.PhoneHeight,.WriteMessegeHeight{
+        height: 25px;
+        display: flex !important;
+    }
+    .heightphones{
+        height: 25px !important;
+    }
+}
+.Select_Option{
+    width: 213px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom:none;
+    color: #2678a5;
+    font-family:'GE_SS_Text_Light';
+    background-color: #fff;
+    border-bottom: 2px solid #b7b5b5;
+}
+option{
+    font-family:'GE_SS_Text_Light';
+}
+.Select_Option_phone{
+    width: 213px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    color: #2678a5;
+    font-family:'GE_SS_Text_Light';
+    background-color: #fff;
+    border-bottom: 2px solid #b7b5b5;
+}
+.textArea{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    resize: none;
+    border-bottom: 2px solid #b7b5b5;
+}
+.check1,.check1{
+    color: #2678a5 !important;
+    font-size: 13px;
+    font-family:'GE_SS_Text_Light';
+}
+.submit_btn{
+    font-family:'GE_SS_Text_Light';
+    background-color: #2678a5; 
+    color: white;
+    border: none;
+    width: 153px;
+    height: 40px;
+}
+.check2{
+    margin-right: 20px;
+}
+.contuct_number_one{
+    text-align: center;
+    color: #2678a5;
+    font-family: 'GE-SS-Text-Medium';
+    font-size: 24px;
+}
+.contuct_number_two{
+    text-align: center;
+    color: #2678a5;
+    font-family:'GE_SS_Text_Light';
+    font-size: 20px;
+}
+.know{
+    color: #2678a5;
+    font-size: 50px;
+    font-family: 'GE-SS-Text-Bold';
+}
+.dare{
+    color: #d8b747;
+    font-size: 50px;
+    font-family: 'GE-SS-Text-Bold';
+}
+.lead{
+    color: #1b365d;
+    font-size: 50px;
+    font-family: 'GE-SS-Text-Bold';
+}
+footer{
+    width: 100%;
+    /* margin-top: 30px; */
+    background-color: #26384ef0;
+    /* padding-top: 80px; */
+    padding-bottom: 78px;
+}
+.li_footer{
+    color: #c3bfbf;
+}
+ul{
+    list-style: none;
+}
+.icons{
+    text-align: end;
+}
+.Condition_qistas{
+    text-align: end !important;
+}
+@media(max-width:1000px){
+    .icons,.font_align,.reserved{
+        text-align: right;
+    }
+}
+@media(max-width:420px){
+    .family_Name{
+        width: 100% !important;
+    }
+    .input_First_Name_width {
+        width: 100% !important;
+    }
+    .phones{
+        display: ruby;
+    }
+}
+@media(max-width:320px){
+    .family_Name{
+        width: 100% !important;
+    }
+   .email_ensure{
+    font-size: 14px;
+    line-height: 24px;
+   }
+   .write_messege{
+    width: 88px !important;
+   }
+   .check1{
+    font-size: 11px !important;
+   }
+}
+.align_button{
+    text-align: right;
+}

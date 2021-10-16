@@ -1,0 +1,163 @@
+@font-face{
+    font-family:GE-SS-Text-Bold;
+    src: url('fonts/GE-SS-Text-Bold.otf');
+}
+@font-face{
+  font-family:GE-SS-Text-Medium;
+  src: url('fonts/GE-SS-Text-Medium.otf');
+}
+@font-face{
+font-family:GE_SS_Text_Light;
+src: url('fonts/GE_SS_Text_Light.otf');
+}
+.main_Sections{
+    background-image: url('image/About Us-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+@media(min-width:1250px){
+    .font_color_yellow{
+        margin-right: 392px;
+    }
+}
+.font_color , .font_color_yellow{
+    font-family: 'GE_SS_Text_Light';
+}
+.font_color_yellow{
+    color: #d8b747 !important;
+}
+.font_color {
+    color: #2678a5 !important;
+}
+.we_Work{
+    text-align: center;
+}
+.text_we_are{
+    text-align: -moz-center;
+}
+.we_Work{
+    font-size: 50px;
+    font-family: 'GE-SS-Text-Medium';
+}
+.we{
+    background-color: #2678a5;
+    color: white;
+    padding: 4px;
+}
+.you{
+    background-color: #1b365d;
+    color: white;
+    padding: 4px;  
+}
+.together{
+    background-color: #d8b747;
+    color: white;
+    padding: 4px; 
+}
+@media(max-width:600px){
+    .text_main1,.text_main2{
+        width: 160px !important;
+        height: 50px !important;
+    }   
+    .num2::after{
+        display: none;
+    }
+}
+.text_main1{
+    background-color: #2678a5;
+    color: white;
+    padding: 5px;
+    display: initial;
+    font-family: 'GE-SS-Text-Medium';
+}
+.text_paraghrap{
+    font-family: 'GE_SS_Text_Light';
+}
+.text_main2{
+    background-color: #1b365d;
+    color: white;
+    padding: 5px;
+    display: initial;
+    font-family: 'GE-SS-Text-Medium';
+}
+.text_paraghrap2{
+    font-family: 'GE_SS_Text_Light';  
+}
+.img_align{
+    text-align: end;
+}
+@media (max-width:1000px){
+    .img_align{
+        text-align: -moz-center;
+    } 
+    .num2::after{
+        display: none;
+    }  
+}
+.content{
+    background-color: #d8b747;
+    color: white;
+    display: initial;
+    padding: 5px;
+    font-family: 'GE-SS-Text-Medium';
+}
+.num1,.num2,.num3,.num4{
+    color: #d8b747;
+    font-family: 'GE-SS-Text-Bold';
+    font-size: 30px;
+}
+.num1::after,.num2::after,.num3::after{
+    content: "-";
+    font-size: 50px;
+    color: rgb(184, 171, 171);
+    position: relative;
+    right: 100px;
+    opacity: 0.5;
+}
+.text1,.text2,.text3,.text4{
+    color: #1b365d;
+}
+footer{
+    width: 100%;
+    background-color: #26384ef0;
+    /* padding-bottom: 78px; */
+}
+.li_footer{
+    color: #c3bfbf;
+}
+ul{
+    list-style: none;
+}
+.icons{
+    text-align: end;
+}
+.Condition_qistas{
+    text-align: end !important;
+}
+@media(max-width:1000px){
+    .icons,.font_align,.reserved{
+        text-align: right;
+    }
+}
+@media(max-width:600px){
+    .num1::after,.num3::after{
+        position: absolute;
+        left: 100px;
+    }
+    .we_Work{
+        font-size: 30px;
+    }
+    .heigh_judge{
+        height: 25px;
+    }
+    .height_bo{
+        height: 30px;
+        display: flex !important;
+    }
+    .img_align{
+        text-align: -webkit-center;
+        text-align: -moz-center;
+    }
+}
